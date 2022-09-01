@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Naves aliens</title>
+  <link rel="stylesheet" href="./stelys.css">
+  <link rel="stylesheet" href="https://bootswatch.com/5/vapor/bootstrap.min.css">
+
+</head>
+<body>
+  <div class="container">
+    <form id="formulario">
+        <div class="persona">
+          <label for="NombreUsuario" class="form-label">NombreUsuario</label>
+          <input type="text" class="form-control" id="NombreUsuario">
+        </div>
+        <div class="mb-3">
+            <label for="EmailUsuario" class="form-label">EmailUsuario</label>
+            <input type="email" class="form-control" id="EmailUsuario">
+          </div>
+        <div class="mb-3">
+          <label for="Password1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="Password1">
+        </div>
+        <div class="mb-3">
+          <label for="edad" class="form-label">Edad</label>
+          <input type="text" class="form-control" id="Edad">
+        </div>
+        <button type="submit" class="btn btn-primary"id="admin">Crear Usuario</button>
+      </form>
+          </div>
+<br><br>
+
+<div class="row">
+  <div class="col-12 text-center" id="infoUsuarios"></div>
+</div>
+<button class="btn btn-lg px-4 gap-3 colorBoton m-3" id="admin"> Admin </button>
+<div class="row">
+  <div id="datosAdmin"></div>
+</div>
+</body>
+<main>
+  <div>
+    <h1 class="results">0</h1>
+    <div class="grid"></div>
+  </div>
+  <script src="./main.js"></script>
+</main>
+</html>
